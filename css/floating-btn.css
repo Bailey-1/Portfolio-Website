@@ -41,7 +41,9 @@
 	animation: bot-to-top 2s ease-out;
 }
 
-ul {
+/*ul*/
+
+.floating-ul {
 	position:fixed;
 	right:40px;
 	padding-bottom:20px;
@@ -49,12 +51,16 @@ ul {
 	z-index:100;
 }
 
-ul li{
+/*ul li*/
+
+.floating-ul-li{
 	list-style:none;
 	margin-bottom:10px;
 }
 
-ul li a{
+/*ul li a*/
+
+.floating-ul-li-a{
 	background-color:#F33;
 	color:#FFF;
 	border-radius:50px;
@@ -65,7 +71,9 @@ ul li a{
 	display:block;
 }
 
-ul:hover{
+/*ul:hover*/
+
+.floating-ul:hover{
 	visibility:visible!important;
 	opacity:1!important;
 }
@@ -113,3 +121,5 @@ a#menu-share:hover > i{
     to {transform: rotate(0deg);}
 }
 <strong></strong>
+.floating-ul {
+}
