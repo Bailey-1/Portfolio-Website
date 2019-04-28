@@ -13,31 +13,38 @@
 		
 		<!-- CSS Files -->
 		<link rel="stylesheet" href="css/floating-btn.css">
+		<link rel="stylesheet" href="css/style.css">
 		
-
+		<!--ScrollMagic.js-->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+		<script src="js/main.js"></script>
+		
 		<title>Hello, world!</title>
   	</head>
-  	<body>
-		<a href="#" class="float" id="menu-share">
-			<i class="fa fa-share my-float"></i>
-		</a>
-		<ul class="floating-ul">
-			<li class="floating-ul-li">
-				<a class="floating-ul-li-a" href="#">
-					<i class="fab fa-facebook-f my-float"></i>
-				</a>
-				</li>
-			<li class="floating-ul-li">
-				<a class="floating-ul-li-a" href="#">
-					<i class="fab fa-google-plus-g my-float"></i>
-				</a>
-			</li>
-			<li class="floating-ul-li">
-				<a class="floating-ul-li-a" href="#">
-					<i class="fab fa-twitter my-float"></i>
-				</a>
-			</li>
-		</ul>
+	  <body style="height: 2000px">
+		<div style="width:50vw; background-color: blue; height: 100vh" id="intro">
+			<h1 class="center" style="color:white">Some text</h1>
+		</div>
+		<script>
+			$(function () { // wait for document ready
+				// build scene
+				var scene = new ScrollMagic.Scene({triggerElement: "#intro"})
+								.setPin("#intro")
+								.
+								.addTo(controller);
+			});
+		</script>
+		<!--
+		<div class="row" id="intro"> 
+			<div class="col-6" style="width:100%">
+				<h1 class="center">Some Text</h1>
+			</div>
+			<div class="col-6" style="height: 100vh; background-color: blue">
+				<h1>Some Text</h1>
+			</div>
+		</div>
+		-->
+		<h1>Hey</h1>
 		
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
