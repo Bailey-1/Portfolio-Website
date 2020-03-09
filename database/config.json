@@ -1,0 +1,4 @@
+{
+	"database": "databaseName",
+	"statement_timeout": 5000
+}
