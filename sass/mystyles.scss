@@ -1,6 +1,10 @@
 @charset "utf-8";
 
-$purple: #8a4d76;
-$primary: $purple;
+// $purple: #8a4d76;
+// $primary: #2b3b97;
 
+// Import bulma theme variables before bulma and overrides after.
+@import '../node_modules/bulmaswatch/sandstone/variables';
 @import '../node_modules/bulma/bulma.sass';
+
+@import '../node_modules/bulmaswatch/sandstone/overrides';
