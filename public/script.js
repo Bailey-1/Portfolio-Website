@@ -3,7 +3,7 @@
 console.log(
 	`%cLookin around in here are we?
 This might help:
-https://github.com/Bailey-1/PortfolioWebsite/tree/simpleSite`,
+https://github.com/Bailey-1/PortfolioWebsite`,
 	'background: black; color: yellow',
 );
 
