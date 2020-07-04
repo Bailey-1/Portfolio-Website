@@ -1,7 +1,26 @@
+@import './mystyles.css';
+
+html {
+	scroll-behavior: smooth;
+}
+
 a {
 	color: #363636;
 }
 
 a:hover {
 	text-decoration: underline;
+}
+
+.footer a,
+.footer strong {
+	color: white;
+}
+
+img.madeWithBulma {
+	width: 15em;
+}
+
+ul {
+	padding-left: 1em;
 }

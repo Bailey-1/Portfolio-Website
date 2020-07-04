@@ -9,12 +9,13 @@
 		<script src="./script.js"></script>
 
 		<!-- Import Stylesheets -->
-		<link rel="stylesheet" href="./mystyles.css" />
+		<!-- <link rel="stylesheet" href="./mystyles.css" /> -->
 		<link rel="stylesheet" href="./style.css" />
 		<script src="https://kit.fontawesome.com/eaa8b9a1b6.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
+		<!-- Hero -->
 		<section class="hero is-primary is-fullheight">
 			<div class="hero-head">
 				<header class="navbar">
@@ -94,13 +95,133 @@
 
 			<!-- Hero footer: will stick at the bottom -->
 			<div class="hero-foot">
-				<nav class="tabs is-boxed is-small is-half is-centered">
+				<nav class="tabs is-medium is-boxed is-centered">
 					<div class="container">
 						<ul>
-							<li class="is-active" style="width: 25vw;"><a>About</a></li>
+							<li style="width: 25vw;">
+								<a href="#aboutMe">About</a>
+							</li>
+							<li style="width: 25vw;">
+								<a href="#repoList">GitHub Repos</a>
+							</li>
 						</ul>
 					</div>
 				</nav>
+			</div>
+		</section>
+
+		<section
+			id="aboutMe"
+			class="has-text-dark has-background-light"
+			style="padding: 20px; height: 100vh; border-bottom: solid black;"
+		>
+			<div class="columns" style="padding: 20px;">
+				<div class="column is-one-third" style="margin: 10px;">
+					<h1 class="title">About Me:</h1>
+					<p>
+						Mollit laboris eiusmod eu et nostrud deserunt in. Excepteur eiusmod sit reprehenderit
+						irure velit labore adipisicing aute nostrud in Lorem aliqua irure incididunt. Esse minim
+						est minim officia enim dolor ipsum. Occaecat veniam dolor voluptate tempor officia
+						voluptate cupidatat laboris dolore dolore elit dolor commodo aliqua. Elit excepteur
+						culpa eiusmod esse quis sint. Voluptate dolor quis dolor laborum ex veniam. Consequat
+						sint ullamco excepteur veniam aliqua amet eiusmod magna.
+					</p>
+				</div>
+				<div class="column is-two-thirds" style="margin: 10px;">
+					<h1 class="title">Intrests / Experience</h1>
+					<div style="padding-bottom: 1em;">
+						<h1 class="subtitle is-4" style="margin-bottom: 0em;">iOS App Development</h1>
+						<ul style="list-style: circle;">
+							<li>Swift</li>
+							<li>UIKit</li>
+							<li>Networking</li>
+						</ul>
+					</div>
+
+					<div style="padding-bottom: 1em;">
+						<h1 class="subtitle is-4" style="margin-bottom: 0em;">Fullstack Web Development</h1>
+						<ul style="list-style: circle;">
+							<li>Frontend</li>
+							<ul>
+								<li>html amirite</li>
+							</ul>
+							<li>Backend</li>
+							<ul>
+								<li>Node, ExpressJS, PostgreSQL, MySQL</li>
+							</ul>
+						</ul>
+					</div>
+
+					<div style="padding-bottom: 1em;">
+						<h1 class="subtitle is-4" style="margin-bottom: 0em;">
+							Homelab
+							<a
+								class="has-text-link"
+								target="_blank"
+								href="https://www.seeedstudio.com/blog/2020/05/21/what-is-a-homelab-and-why-you-need-it-m/"
+								>?</a
+							>
+						</h1>
+						<ul style="list-style: circle;">
+							<li>VMWare vSphere - ESXi, vCenter</li>
+							<li>Freenas</li>
+							<li>Windows Server 2019 - DNS, DHCP, Active Directory DC</li>
+							<li>Linux Distros - Ubuntu, Manjaro</li>
+						</ul>
+					</div>
+					<div style="padding-bottom: 1em;">
+						<h1 class="subtitle is-4" style="margin-bottom: 0em;">Other</h1>
+						<ul style="list-style: circle;">
+							<li>Raspberry Pi</li>
+							<li>Arduino</li>
+							<li>C</li>
+							<li>C++</li>
+							<li>C#</li>
+						</ul>
+					</div>
+					<!-- <ul style="list-style: disc;">
+						<li class="subtitle is-5">iOS App Development</li>
+						<ul style="list-style: circle;">
+							<li>Swift</li>
+							<li>UIKit</li>
+							<li>Networking</li>
+						</ul>
+
+						<li>Fullstack Web Development</li>
+						<ul style="list-style: circle;">
+							<li>Frontend</li>
+							<ul>
+								<li>html amirite</li>
+							</ul>
+							<li>Backend</li>
+							<ul>
+								<li>Node, ExpressJS, PostgreSQL, MySQL</li>
+							</ul>
+						</ul>
+
+						<li>Homelab <a>?</a></li>
+						<ul style="list-style: circle;">
+							<li>VMWare vSphere - ESXi, vCenter</li>
+							<li>Freenas</li>
+							<li>Windows Server 2019 - DNS, DHCP, Active Directory DC</li>
+							<li>Linux Distros - Ubuntu, Manjaro</li>
+						</ul>
+
+						<li>Arduino, Raspberry Pi</li>
+
+						<li>Cloud Computing</li>
+						<ul style="list-style: circle;">
+							<li>Microsoft Azure</li>
+							<ul>
+								<li>VMs + Simple Networking and Storage</li>
+							</ul>
+							<li>Firebase</li>
+						</ul>
+						<li>C#</li>
+						<li>C</li>
+						<li>C++</li>
+					</ul> -->
+				</div>
 			</div>
 		</section>
 
@@ -174,6 +295,21 @@
 					</div>
 				</div>
 			</div> -->
+		</section>
+
+		<!-- Footer -->
+		<section>
+			<footer class="footer has-background-primary has-text-white">
+				<div class="content has-text-centered">
+					<p>
+						<strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source
+						code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+						website content is licensed
+						<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+					</p>
+					<img class="madeWithBulma" src="./images/made-with-bulma--white.png" />
+				</div>
+			</footer>
 		</section>
 	</body>
 </html>
