@@ -3,13 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>My lil website 😏</title>
-
+		<title>Bailey Search</title>
 		<!-- Import Scripts -->
 		<script src="./script.js"></script>
 
 		<!-- Import Stylesheets -->
-		<!-- <link rel="stylesheet" href="./mystyles.css" /> -->
 		<link rel="stylesheet" href="./style.css" />
 		<script src="https://kit.fontawesome.com/eaa8b9a1b6.js" crossorigin="anonymous"></script>
 	</head>
@@ -22,6 +20,7 @@
 					<div class="container">
 						<div class="navbar-brand">
 							<a class="navbar-item">
+								<!-- TODO: Add something in the corner maybe? -->
 								<!-- <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo" /> -->
 							</a>
 							<span
@@ -59,35 +58,27 @@
 					</h1>
 					<br />
 					<h2 class="subtitle">
-						<a class="button is-primary is-inverted">
+						<a
+							class="button is-primary is-inverted"
+							href="https://www.linkedin.com/in/bailey-search/"
+							target="_blank"
+						>
 							<span class="icon">
 								<i class="fab fa-linkedin"></i>
 							</span>
 							<span>LinkedIn</span>
 						</a>
-						<a class="button is-primary">
+						<a class="button is-primary" href="https://github.com/Bailey-1" target="_blank">
 							<span class="icon">
 								<i class="fab fa-github"></i>
 							</span>
 							<span>GitHub</span>
 						</a>
-						<a class="button is-primary">
+						<a class="button is-primary" href="https://twitter.com/baileysearch" target="_blank">
 							<span class="icon">
 								<i class="fab fa-twitter"></i>
 							</span>
 							<span>Twitter</span>
-						</a>
-						<a class="button is-primary">
-							<span class="icon">
-								<i class="fab fa-stack-overflow"></i>
-							</span>
-							<span>Stackoverflow</span>
-						</a>
-						<a class="button is-primary is-rounded">
-							<span class="icon">
-								<i class="fab fa-microsoft"></i>
-							</span>
-							<span>Microsoft Learn</span>
 						</a>
 					</h2>
 				</div>
@@ -99,129 +90,11 @@
 					<div class="container">
 						<ul>
 							<li style="width: 25vw;">
-								<a href="#aboutMe">About</a>
-							</li>
-							<li style="width: 25vw;">
 								<a href="#repoList">GitHub Repos</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
-			</div>
-		</section>
-
-		<section
-			id="aboutMe"
-			class="has-text-dark has-background-light"
-			style="padding: 20px; height: 100vh; border-bottom: solid black;"
-		>
-			<div class="columns" style="padding: 20px;">
-				<div class="column is-one-third" style="margin: 10px;">
-					<h1 class="title">About Me:</h1>
-					<p>
-						Mollit laboris eiusmod eu et nostrud deserunt in. Excepteur eiusmod sit reprehenderit
-						irure velit labore adipisicing aute nostrud in Lorem aliqua irure incididunt. Esse minim
-						est minim officia enim dolor ipsum. Occaecat veniam dolor voluptate tempor officia
-						voluptate cupidatat laboris dolore dolore elit dolor commodo aliqua. Elit excepteur
-						culpa eiusmod esse quis sint. Voluptate dolor quis dolor laborum ex veniam. Consequat
-						sint ullamco excepteur veniam aliqua amet eiusmod magna.
-					</p>
-				</div>
-				<div class="column is-two-thirds" style="margin: 10px;">
-					<h1 class="title">Intrests / Experience</h1>
-					<div style="padding-bottom: 1em;">
-						<h1 class="subtitle is-4" style="margin-bottom: 0em;">iOS App Development</h1>
-						<ul style="list-style: circle;">
-							<li>Swift</li>
-							<li>UIKit</li>
-							<li>Networking</li>
-						</ul>
-					</div>
-
-					<div style="padding-bottom: 1em;">
-						<h1 class="subtitle is-4" style="margin-bottom: 0em;">Fullstack Web Development</h1>
-						<ul style="list-style: circle;">
-							<li>Frontend</li>
-							<ul>
-								<li>html amirite</li>
-							</ul>
-							<li>Backend</li>
-							<ul>
-								<li>Node, ExpressJS, PostgreSQL, MySQL</li>
-							</ul>
-						</ul>
-					</div>
-
-					<div style="padding-bottom: 1em;">
-						<h1 class="subtitle is-4" style="margin-bottom: 0em;">
-							Homelab
-							<a
-								class="has-text-link"
-								target="_blank"
-								href="https://www.seeedstudio.com/blog/2020/05/21/what-is-a-homelab-and-why-you-need-it-m/"
-								>?</a
-							>
-						</h1>
-						<ul style="list-style: circle;">
-							<li>VMWare vSphere - ESXi, vCenter</li>
-							<li>Freenas</li>
-							<li>Windows Server 2019 - DNS, DHCP, Active Directory DC</li>
-							<li>Linux Distros - Ubuntu, Manjaro</li>
-						</ul>
-					</div>
-					<div style="padding-bottom: 1em;">
-						<h1 class="subtitle is-4" style="margin-bottom: 0em;">Other</h1>
-						<ul style="list-style: circle;">
-							<li>Raspberry Pi</li>
-							<li>Arduino</li>
-							<li>C</li>
-							<li>C++</li>
-							<li>C#</li>
-						</ul>
-					</div>
-					<!-- <ul style="list-style: disc;">
-						<li class="subtitle is-5">iOS App Development</li>
-						<ul style="list-style: circle;">
-							<li>Swift</li>
-							<li>UIKit</li>
-							<li>Networking</li>
-						</ul>
-
-						<li>Fullstack Web Development</li>
-						<ul style="list-style: circle;">
-							<li>Frontend</li>
-							<ul>
-								<li>html amirite</li>
-							</ul>
-							<li>Backend</li>
-							<ul>
-								<li>Node, ExpressJS, PostgreSQL, MySQL</li>
-							</ul>
-						</ul>
-
-						<li>Homelab <a>?</a></li>
-						<ul style="list-style: circle;">
-							<li>VMWare vSphere - ESXi, vCenter</li>
-							<li>Freenas</li>
-							<li>Windows Server 2019 - DNS, DHCP, Active Directory DC</li>
-							<li>Linux Distros - Ubuntu, Manjaro</li>
-						</ul>
-
-						<li>Arduino, Raspberry Pi</li>
-
-						<li>Cloud Computing</li>
-						<ul style="list-style: circle;">
-							<li>Microsoft Azure</li>
-							<ul>
-								<li>VMs + Simple Networking and Storage</li>
-							</ul>
-							<li>Firebase</li>
-						</ul>
-						<li>C#</li>
-						<li>C</li>
-						<li>C++</li>
-					</ul> -->
-				</div>
 			</div>
 		</section>
 
@@ -232,82 +105,16 @@
 					<h1 class="subtitle is-2">Public GitHub Repositories</h1>
 				</div>
 			</div>
-			<!-- <div class="container" style="width: 75%; padding-bottom: 1em;">
-				<div class="card">
-					<div class="card-content">
-						<p class="title">
-							Project Card
-						</p>
-
-						<div class="tags">
-							<span class="tag">Javascript</span>
-							<span class="tag">Node</span>
-							<span class="tag">PostgreSQL</span>
-							<span class="tag">SQL</span>
-						</div>
-
-						<p class="subtitle">
-							Reprehenderit nisi consectetur Lorem enim ad mollit ex. Elit sunt adipisicing Lorem ea
-							deserunt fugiat irure deserunt dolor veniam. Irure eu dolor esse eu eu laboris.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="container" style="width: 75%; padding-bottom: 1em;">
-				<div class="card">
-					<div class="card-content">
-						<p class="title">
-							Project Card
-						</p>
-
-						<div class="tags">
-							<span class="tag">Javascript</span>
-							<span class="tag">Node</span>
-							<span class="tag">PostgreSQL</span>
-							<span class="tag">SQL</span>
-						</div>
-
-						<p class="subtitle">
-							Reprehenderit nisi consectetur Lorem enim ad mollit ex. Elit sunt adipisicing Lorem ea
-							deserunt fugiat irure deserunt dolor veniam. Irure eu dolor esse eu eu laboris.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="container" style="width: 75%; padding-bottom: 1em;">
-				<div class="card">
-					<div class="card-content">
-						<p class="title">
-							Project Card
-						</p>
-
-						<div class="tags">
-							<span class="tag">Javascript</span>
-							<span class="tag">Node</span>
-							<span class="tag">PostgreSQL</span>
-							<span class="tag">SQL</span>
-						</div>
-
-						<p class="subtitle">
-							Reprehenderit nisi consectetur Lorem enim ad mollit ex. Elit sunt adipisicing Lorem ea
-							deserunt fugiat irure deserunt dolor veniam. Irure eu dolor esse eu eu laboris.
-						</p>
-					</div>
-				</div>
-			</div> -->
 		</section>
 
 		<!-- Footer -->
 		<section>
 			<footer class="footer has-background-primary has-text-white">
 				<div class="content has-text-centered">
-					<p>
-						<strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source
-						code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-						website content is licensed
-						<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-					</p>
-					<img class="madeWithBulma" src="./images/made-with-bulma--white.png" />
+					<p>Built by Me 👍 with a lil help...</p>
+					<a href="https://bulma.io/" target="_blank">
+						<img class="madeWithBulma" src="./images/made-with-bulma--white.png" />
+					</a>
 				</div>
 			</footer>
 		</section>
@@ -320,17 +127,10 @@
 		<div class="card">
 			<div class="card-content">
 				<p class="title">
-					<a id="repoName" target="_blank">
-						some
-					</a>
+					<a id="repoName" target="_blank"></a>
 				</p>
-
 				<div class="tags" id="repoLanguages"></div>
-
-				<p class="subtitle" id="repoDescription">
-					Reprehenderit nisi consectetur Lorem enim ad mollit ex. Elit sunt adipisicing Lorem ea
-					deserunt fugiat irure deserunt dolor veniam. Irure eu dolor esse eu eu laboris.
-				</p>
+				<p class="subtitle" id="repoDescription"></p>
 			</div>
 		</div>
 	</div>
