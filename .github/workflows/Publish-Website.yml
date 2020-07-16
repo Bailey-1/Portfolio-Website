@@ -14,4 +14,4 @@ jobs:
           ftp-server: ftp://ftp.baileysearch.io
           ftp-username: ftp-github@baileysearch.io
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
+          local-dir: ./public_html/
