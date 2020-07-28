@@ -1,7 +1,10 @@
 on:
   push:
     branches:
-    - main
+      - Development
+  pull_request:
+    branches:
+      - master
 
 name: HTML Test Website
 
