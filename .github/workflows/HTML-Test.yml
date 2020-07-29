@@ -6,7 +6,7 @@ on:
     branches:
       - master
 
-name: HTML Test Website
+name: Website Testing
 
 jobs:
   HTMLProofer:
