@@ -16,7 +16,7 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: ftp://ftp.baileysearch.io
+          ftp-server: ${{ secrets.FTP_LOCATION }}
           ftp-username: ftp-github@baileysearch.io
           ftp-password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./public_html/
